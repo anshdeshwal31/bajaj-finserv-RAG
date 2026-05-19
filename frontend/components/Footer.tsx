@@ -16,7 +16,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-gray-400 text-xs md:text-sm leading-relaxed mb-3 md:mb-4 max-w-md">
-              Transform your documents into intelligent knowledge bases. Upload PDFs, Word docs, and get instant AI-powered answers to your questions.
+              Upload a document, ask questions, and read back grounded answers in either standard or streaming mode.
             </p>
             <div className="flex items-center gap-3 md:gap-4">
               <a 
@@ -51,23 +51,12 @@ export default function Footer() {
 
           {/* Product Links */}
           <div>
-            <h3 className="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Product</h3>
+            <h3 className="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Workflow</h3>
             <ul className="space-y-1 md:space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Features</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">API</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Documentation</a></li>
-            </ul>
-          </div>
-
-          {/* Company Links */}
-          <div>
-            <h3 className="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Company</h3>
-            <ul className="space-y-1 md:space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Contact</a></li>
+              <li><span className="text-gray-400 text-xs md:text-sm">Upload PDF, DOCX, TXT, or MD files</span></li>
+              <li><span className="text-gray-400 text-xs md:text-sm">Ask multiple questions in one run</span></li>
+              <li><span className="text-gray-400 text-xs md:text-sm">Switch between standard and streaming answers</span></li>
+              <li><span className="text-gray-400 text-xs md:text-sm">Sign in to access the workspace</span></li>
             </ul>
           </div>
         </div>

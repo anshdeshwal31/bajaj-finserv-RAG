@@ -245,8 +245,8 @@ export default function Page() {
         </motion.div>
         <SignedOut>
           <div className="max-w-xl mx-auto text-center rounded-2xl bg-gray-900/50 backdrop-blur-sm p-6 md:p-8 border border-gray-700">
-            <h2 className="text-xl md:text-2xl font-semibold text-white mb-3">Sign in to start asking</h2>
-            <p className="text-gray-400 mb-6 text-sm md:text-base">You'll use your Clerk account to securely upload files and ask questions.</p>
+            <h2 className="text-xl md:text-2xl font-semibold text-white mb-3">Sign in to use the workspace</h2>
+            <p className="text-gray-400 mb-6 text-sm md:text-base">Use your Clerk account to open the upload flow and ask questions about a document.</p>
             <div className="flex justify-center">
               <SignInButton>
                 <button className="px-4 md:px-6 py-2 md:py-3 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 text-white hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-purple-500/25 text-sm md:text-base">

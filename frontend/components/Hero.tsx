@@ -35,20 +35,20 @@ export default function Hero() {
       <div className="relative z-10 text-center px-4 md:px-6 max-w-4xl mx-auto">
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight">
-          Become emboldened by
+          Ask questions over
           <br />
           <span className="bg-gradient-to-r from-purple-300 to-blue-300 bg-clip-text text-transparent">
-            the flame of ambition
+            uploaded documents
           </span>
         </h1>
 
         <p className="text-lg md:text-xl text-white/80 mb-8 md:mb-12 max-w-2xl mx-auto leading-relaxed">
-          Upload PDFs or Word docs and get instant, grounded answers powered by advanced AI. 
-          Transform your documents into interactive knowledge bases.
+          Sign in, upload a file, and ask natural-language questions. QueryForge
+          returns answers from the document in standard or streaming mode.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <ShinyButton onClick={scrollToUpload}>Get Started</ShinyButton>
+          <ShinyButton onClick={scrollToUpload}>Open Upload Workspace</ShinyButton>
         </div>
       </div>
 

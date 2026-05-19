@@ -1,6 +1,6 @@
 # QueryForge Frontend (Next.js)
 
-A modern Next.js + Tailwind CSS interface for your Django RAG backend, with Clerk auth and animated components.
+A modern Next.js + Tailwind CSS interface for the QueryForge file-upload Q&A workspace, with Clerk auth and animated components.
 
 ## Setup
 
@@ -12,7 +12,7 @@ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 ```
 
-If you don't want to wire Clerk yet, you can leave those unset and paste a token in the UI. For dev, backend accepts API_KEY.
+If you don't want to wire Clerk yet, you can leave those unset and run the frontend without authentication for local testing.
 
 2. Install and run:
 
@@ -25,6 +25,7 @@ Open http://localhost:3000.
 
 ## Notes
 
-- Uses Clerk JWT when signed in, falls back to manual token field.
-- Uploads file via POST /hackrx/run-file using multipart/form-data.
+- Requires sign-in in the current UI flow before uploading a file.
+- Uploads a local file via POST /hackrx/run-file using multipart/form-data.
+- Supports both standard and streaming answer modes.
 - Minimal animations via framer-motion; you can add aceternityUI or reactbits as desired.
