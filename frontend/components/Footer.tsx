@@ -67,6 +67,7 @@ export default function Footer() {
             © 2025 QueryForge. All rights reserved.
           </p>
           <div className="flex items-center gap-4 md:gap-6 mt-3 md:mt-0">
+            <a href="/about" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">About</a>
             <a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Privacy Policy</a>
             <a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Terms of Service</a>
             <a href="#" className="text-gray-400 hover:text-white text-xs md:text-sm transition-colors">Cookie Policy</a>
